@@ -4,7 +4,7 @@ Internwell SLIET Attendance : This repository is for creating an web application
 
 ## 🛠️ Tech Stack
 
-****_Stocksei_** is build using following tech stack**
+****_Internwell SLIET Attendance_** is build using following tech stack**
 
 - **React.JS -** A popular JavaScript library for building user interfaces.
 - **Next.JS -** A powerful React framework for server-side rendering and static site generation.
