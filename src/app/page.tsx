@@ -13,7 +13,6 @@ export default function Home() {
                 <img src="./logo/iw-wbg.png" className="h-24" />
               </div>
               <div className="mt-2 flex flex-col items-center">
-                {/* Heading */}
                 <h1 className="text-2xl xl:text-3xl font-extrabold text-center">
                   InternWell Attendance Portal
                 </h1>
