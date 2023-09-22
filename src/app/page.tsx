@@ -47,7 +47,7 @@ export default function Home() {
                       </span>
                     </button>
                     <p className="mt-6 text-xs text-gray-600 text-center">
-                      I agree to abide by templatanas
+                      I agree to abide by InternWell
                       <a href="#" className="border-b border-gray-500 border-dotted">
                         Terms of Service
                       </a>
@@ -62,8 +62,10 @@ export default function Home() {
             </div>
             <div className="flex-1 bg-indigo-100 text-center hidden lg:flex">
               <div
-                className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
-              ></div>
+                className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat flex justify-center items-center"
+              >
+                <img src="./img/login2.png" alt="" />
+              </div>
             </div>
           </div>
           <div className="REMOVE-THIS-ELEMENT-IF-YOU-ARE-USING-THIS-PAGE hidden treact-popup fixed inset-0 items-center justify-center">
@@ -71,16 +73,9 @@ export default function Home() {
 
               <h3 className="text-xl sm:text-2xl font-semibold mb-6 flex flex-col sm:flex-row items-center">
                 <div className="bg-green-200 p-2 rounded-full flex items-center mb-4 sm:mb-0 sm:mr-2">
-                  <svg className="text-green-800 inline-block w-5 h-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg>
                 </div>
-                Free TailwindCSS Component Kit!
+
               </h3>
-              <p>I recently released Treact, a <span className="font-bold">free</span> TailwindCSS Component Kit built with React.</p>
-              <p className="mt-2">It has 52 different UI components, 7 landing pages, and 8 inner pages prebuilt. And they are customizable!</p>
-              <div className="mt-8 pt-8 sm:pt-4 border-t -mx-8 px-8 flex flex-col sm:flex-row justify-end leading-relaxed">
-                <button className="close-treact-popup px-8 py-3 sm:py-2 rounded border border-gray-400 hover:bg-gray-200 transition duration-300">Close</button>
-                <a className="font-bold mt-4 sm:mt-0 sm:ml-4 px-8 py-3 sm:py-2 rounded bg-purple-700 text-gray-100 hover:bg-purple-900 transition duration-300 text-center" href="https://treact.owaiskhan.me" target="_blank">See Treact</a>
-              </div>
             </div>
           </div>
         </body>
