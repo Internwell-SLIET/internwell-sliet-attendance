@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Attendance of Internwell Club SLIET',
+  icons: {
+    icon: "/logo/iw-wbg.png"
+  }
 }
 
 export default function RootLayout({
