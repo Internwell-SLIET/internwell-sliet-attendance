@@ -16,7 +16,7 @@ export default function Home() {
                 <img src="./logo/iw-wbg.png" className="h-24" />
               </div>
               <div className="mt-2 flex flex-col items-center">
-                <h1 className="text-2xl xl:text-3xl font-extrabold text-center">
+                <h1 className="text-xl xl:text-2xl font-extrabold text-center">
                   InternWell Attendance Portal
                 </h1>
                 <div className="w-full flex-1 mt-8">
