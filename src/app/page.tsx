@@ -1,4 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
+
+import Link from "next/link";
+
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
   return (
@@ -39,13 +42,15 @@ export default function Home() {
                         <label htmlFor="member" className="ml-2 text-lg font-medium text-black">Member</label>
                       </div>
                     </div>
-                    <button
-                      className="mt-2 tracking-wide font-semibold bg-indigo-500 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
-                    >
-                      <span className="ml-3">
-                        Login Now
-                      </span>
-                    </button>
+                    <Link href="/dashboard">
+                      <button
+                        className="mt-2 tracking-wide font-semibold bg-indigo-500 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
+                      >
+                        <span className="ml-3">
+                          Login Now
+                        </span>
+                      </button>
+                    </Link>
                     <p className="mt-6 text-xs text-gray-600 text-center">
                       I agree to abide by InternWell
                       <a href="#" className="border-b border-gray-500 border-dotted">
@@ -78,8 +83,8 @@ export default function Home() {
               </h3>
             </div>
           </div>
-        </body>
-      </div>
+        </body >
+      </div >
     </>
   )
 }
