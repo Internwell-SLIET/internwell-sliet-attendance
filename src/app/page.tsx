@@ -21,6 +21,7 @@ export default function Home() {
     toast.error("Password in Incorrect. Try again later...");
   }
 
+  // This is temprary checking system later we put API call here to login
   const checkId = () => {
     if (id == ids) {
       if (password == passwords) {
